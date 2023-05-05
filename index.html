@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Online job portal website</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Header section and navigation menu -->
+        <header>
+            <!-- navbar -->
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo of website">
+                    <div class="logo_content">
+                        <h1>Gotto</h1>
+                        <p>Online Job Portal</p>
+                    </div>
+                </div>
+                <ul id="list" onclick="closeMenu()">
+                    <li><a href="#homepage">Homepage</a></li>
+                    <li><a href="#about">About Gotto</a></li>
+                    <li><a href="#page">Pages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <img src="images/52-521784_small-png-close-button-icon.png" alt="close btn" width="50px">
+                    </li>
+                </ul>
+                <div class="right_menu">
+                    <p>Register</p>
+                    <a href="#">Login</a>
+                </div>
+                <div class="mobile_menu" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <section class="main_heading" id="hompage">
+            <div class="main_hero"></div>
+            <div class="head_content">
+                <div class="left_content">
+                    <p>Are you looking for your dream job?</p>
+                    <h1>Online Platform. Best Job portal</h1>
+                    <a href="#">Browse categories</a>
+                </div>
+                <div class="right_content">
+                    <form>
+                        <h3>Search your dream jobs</h3>
+                        <div class="form_field">
+                            <div class="input_field">
+                                <span><i class="fa fa-user-o"></i></span>
+                                <input type="text" placeholder="Job Title">
+                            </div>
+                            <div class="input_field">
+                                <span><i class="fa fa-map-marker"></i></span>
+                                <input type="text" placeholder="Location">
+                            </div>
+                            <div class="job_btn">
+                                <button type="submit">Find a job</button>
+                            </div>
+                            <div class="keyword_sec">
+                                <div class="key">
+                                    <p>Popular Keywords:</p>
+                                </div>
+                                <div class="skills">
+                                    <a href="#">Web Design</a>
+                                    <a href="#">Marketting</a>
+                                    <a href="#">Customer Support</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- categories section -->
+        <section>
+            <div class="categories_section">
+                <div class="catgories_head">
+                    <h1>Browse By Categories</h1>
+                </div>
+                <div class="category_part">
+                    <div class="categories">
+                        <i class="fa fa-window-maximize"></i>
+                        <p>Web Design</p>
+                    </div>
+                    <div class="categories">
+                        <i class="fa fa-twitch "></i>
+                        <p>Marketing</p>
+                    </div>
+                    <div class="categories">
+                        <i class="fa fa-play-circle"></i>
+                        <p>Videos</p>
+                    </div>
+                    <div class="categories">
+                        <i class="fa fa-firefox"></i>
+                        <p>Websites</p>
+                    </div>
+                    <div class="categories">
+                        <i class="fa fa-users"></i>
+                        <p>Customer Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section>
+            <div class="about_section" id="about">
+                <div class="about_container">
+                    <div class="about_img">
+                        <img src="images/professional-asian-businesswoman-gray-blazer.jpg">
+                    </div>
+                    <div class="about_intro">
+                        <h1>Introduction Gotto</h1>
+                        <p>
+                            Gotto Job is a free website template for job portals. This layout is based on Bootstrap 5
+                            CSS framework. Thank you for visiting Tooplate website. Images are from FreePik website
+                        </p>
+                        <a href="#" class="getbtn">Get to Know us</a>
+                        <a href="#" class="expbtn">Explore jobs</a>
+                    </div>
+                    <div class="about_img">
+                        <img src="images/horizontal-shot-happy-mixed-race-females.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured section -->
+        <section>
+            <div class="featured_job" id="page">
+                <div class="featured_head">
+                    <h1>Featured Jobs</h1>
+                    <p><strong>Over 10k opening jobs</strong> Feel free to download and use our free HTML templates from
+                        Tooplate website.</p>
+                </div>
+                <div class="jobs_section">
+                    <!-- job1 -->
+                    <div class="job_thumb">
+                        <div class="job_img">
+                            <img src="images/google.png" alt="google logo">
+                        </div>
+                        <div class="job_body">
+                            <div class="job_desp">
+                                <h1>Technical Lead</h1>
+                                <div class="job_detail">
+                                    <p><span><i class="fa fa-map-marker"></i></span> Kuala, Malaysia</p>
+                                    <p><span><i class="fa fa-clock-o"></i></span> 10 hours ago</p>
+                                    <p><span><i class="fa fa-money"></i></span> $20k</p>
+                                    <div class="btns">
+                                        <a href="#" class="inter">Internship</a>
+                                        <a href="#" class="free">Freelance</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_btn">
+                            <a href="#">Apply Now</a>
+                        </div>
+                    </div>
+                    <!-- job2 -->
+                    <div class="job_thumb">
+                        <div class="job_img">
+                            <img src="images/apple.png" alt="google logo">
+                        </div>
+                        <div class="job_body">
+                            <div class="job_desp">
+                                <h1>Business Director</h1>
+                                <div class="job_detail">
+                                    <p><span><i class="fa fa-map-marker"></i></span> California, USA</p>
+                                    <p><span><i class="fa fa-clock-o"></i></span> 1 day ago</p>
+                                    <p><span><i class="fa fa-money"></i></span> $90k</p>
+                                    <div class="btns">
+                                        <a href="#" class="inter">Senior</a>
+                                        <a href="#" class="free">Full Time</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_btn">
+                            <a href="#">Apply Now</a>
+                        </div>
+                    </div>
+                    <!-- job3 -->
+                    <div class="job_thumb">
+                        <div class="job_img">
+                            <img src="images/meta.png" alt="google logo">
+                        </div>
+                        <div class="job_body">
+                            <div class="job_desp">
+                                <h1>HR Manager</h1>
+                                <div class="job_detail">
+                                    <p><span><i class="fa fa-map-marker"></i></span> Tower, Paris</p>
+                                    <p><span><i class="fa fa-clock-o"></i></span> 22 hours ago</p>
+                                    <p><span><i class="fa fa-money"></i></span> $50k</p>
+                                    <div class="btns">
+                                        <a href="#" class="inter">Junior</a>
+                                        <a href="#" class="free">Contract</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_btn">
+                            <a href="#">Apply Now</a>
+                        </div>
+                    </div>
+                    <!-- job4 -->
+                    <div class="job_thumb">
+                        <div class="job_img">
+                            <img src="images/slack.png" alt="google logo">
+                        </div>
+                        <div class="job_body">
+                            <div class="job_desp">
+                                <h1>Dev Ops</h1>
+                                <div class="job_detail">
+                                    <p><span><i class="fa fa-map-marker"></i></span> Bangkok, Thailand</p>
+                                    <p><span><i class="fa fa-clock-o"></i></span> 40 minutes ago</p>
+                                    <p><span><i class="fa fa-money"></i></span> $75k-$80k</p>
+                                    <div class="btns">
+                                        <a href="#" class="inter">Senior</a>
+                                        <a href="#" class="free">Part-Time</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_btn">
+                            <a href="#">Apply Now</a>
+                        </div>
+                    </div>
+                    <!-- job5 -->
+                    <div class="job_thumb">
+                        <div class="job_img">
+                            <img src="images/creative-market.png" alt="google logo">
+                        </div>
+                        <div class="job_body">
+                            <div class="job_desp">
+                                <h1>UX Designer</h1>
+                                <div class="job_detail">
+                                    <p><span><i class="fa fa-map-marker"></i></span>Bangkok, Thailand</p>
+                                    <p><span><i class="fa fa-clock-o"></i></span> 2 hours ago</p>
+                                    <p><span><i class="fa fa-money"></i></span> $100k</p>
+                                    <div class="btns">
+                                        <a href="#" class="inter">Entry</a>
+                                        <a href="#" class="free">Remote</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply_btn">
+                            <a href="#">Apply Now</a>
+                        </div>
+                    </div>
+                    <!-- Bitton Slider -->
+                    <div class="btn_slider">
+                        <div class="slide_btns">
+                            <ul>
+                                <li><a href="#">Prev</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Next</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gotto information section -->
+        <section>
+            <div class="goto_section">
+                <div class="gotto_info">
+                    <h1>Gotto helps you an easier way to get new job</h1>
+                    <p>
+                        You are not allowed to redistribute the template ZIP file on any other template collection
+                        website. Please contact us for more info. Thank you.
+                    </p>
+                    <div class="counter">
+                        <div class="counter_thumb">
+                            <h2>12M</h2>
+                            <span>Daily active users</span>
+                        </div>
+                        <div class="counter_thumb">
+                            <h2>450k</h2>
+                            <span>Opening Jobs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image_thumb">
+                    <img src="images/people-working-as-team-company.jpg" alt="">
+                    <i class="fa fa-youtube-play"></i>
+                </div>
+            </div>
+        </section>
+        <!-- Job profile section -->
+        <section>
+            <div class="job_section">
+                <div class="recent_post">
+                    <h1>Recent Jobs</h1>
+                    <p>
+                        <strong>Over 10k opening jobs</strong> Lorem Ipsum dolor sit amet, consectetur adipsicing kengan
+                        omeg kohm tokito
+                        adipcingi elit eismuod larehai
+                    </p>
+                </div>
+                <div class="job_profiles">
+                    <!-- profile card 1 -->
+                    <div class="profile_card">
+                        <div class="pro_img">
+                            <img src="images/it-professional-works-startup-project.jpg" alt="">
+                        </div>
+                        <div class="pro_info">
+                            <h4>Technical Lead</h4>
+                            <div class="depart">
+                                <span><img src="images/salesforce.png"></span>
+                                <p>Salesforce</p>
+                                <div class="icons">
+                                    <i class="fa fa-bookmark-o"></i>
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            <div class="locat_time" style="padding-bottom: 20px; border-bottom: 1px solid gainsboro;">
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    Kuala, Malaysia
+                                </span>
+                                <p><i class="fa fa-clock-o"></i> 10 hours ago</p>
+                            </div>
+                            <div class="btn_sec">
+                                <span><i class="fa fa-money"></i> $50k</span>
+                                <a href="#">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile card 2 -->
+                    <div class="profile_card">
+                        <div class="pro_img">
+                            <img src="images/marketing-assistant.jpg" alt="">
+                        </div>
+                        <div class="pro_info">
+                            <h4>Marketing Assistant</h4>
+                            <div class="depart">
+                                <span><img src="images/spotify.png"></span>
+                                <p>Spotify</p>
+                                <div class="icons">
+                                    <i class="fa fa-bookmark-o"></i>
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            <div class="locat_time" style="padding-bottom: 20px; border-bottom: 1px solid gainsboro;">
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    California,USA
+                                </span>
+                                <p><i class="fa fa-clock-o"></i> 8 days ago</p>
+                            </div>
+                            <div class="btn_sec">
+                                <span><i class="fa fa-money"></i> $20k</span>
+                                <a href="#">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Profile card 3 -->
+                    <div class="profile_card">
+                        <div class="pro_img">
+                            <img src="images/coding-man.jpg" alt="">
+                        </div>
+                        <div class="pro_info">
+                            <h4>Programmer</h4>
+                            <div class="depart">
+                                <span><img src="images/twitter.png"></span>
+                                <p>Twitter</p>
+                                <div class="icons">
+                                    <i class="fa fa-bookmark-o"></i>
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            <div class="locat_time" style="padding-bottom: 20px; border-bottom: 1px solid gainsboro;">
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    California,USA
+                                </span>
+                                <p><i class="fa fa-clock-o"></i> 23 hours ago</p>
+                            </div>
+                            <div class="btn_sec">
+                                <span><i class="fa fa-money"></i> $68k</span>
+                                <a href="#">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile card 4 -->
+                    <div class="profile_card">
+                        <div class="pro_img">
+                            <img src="images/pretty-blogger-posing-cozy-apartment.jpg" alt="">
+                        </div>
+                        <div class="pro_info">
+                            <h4>HR Manager</h4>
+                            <div class="depart">
+                                <span><img src="images/yelp.png"></span>
+                                <p>Yelp</p>
+                                <div class="icons">
+                                    <i class="fa fa-bookmark-o"></i>
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            <div class="locat_time" style="padding-bottom: 20px; border-bottom: 1px solid gainsboro;">
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    California,USA
+                                </span>
+                                <p><i class="fa fa-clock-o"></i> 15 hours ago</p>
+                            </div>
+                            <div class="btn_sec">
+                                <span><i class="fa fa-money"></i> $45k</span>
+                                <a href="#">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile card 5-->
+                    <div class="profile_card">
+                        <div class="pro_img">
+                            <img src="images/paper-analysis.jpg" alt="">
+                        </div>
+                        <div class="pro_info">
+                            <h4>Sales Representative</h4>
+                            <div class="depart">
+                                <span><img src="images/paypal.png"></span>
+                                <p>Paypal</p>
+                                <div class="icons">
+                                    <i class="fa fa-bookmark-o"></i>
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            <div class="locat_time" style="padding-bottom: 20px; border-bottom: 1px solid gainsboro;">
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    Bangkok, Thailand
+                                </span>
+                                <p><i class="fa fa-clock-o"></i> 30 mins ago</p>
+                            </div>
+                            <div class="btn_sec">
+                                <span><i class="fa fa-money"></i> $35k</span>
+                                <a href="#">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Profile card 6 -->
+                    <div class="profile_card">
+                        <div class="pro_img">
+                            <img src="images/logo-designer-working-computer-desktop.jpg" alt="">
+                        </div>
+                        <div class="pro_info">
+                            <h4>Technical Lead</h4>
+                            <div class="depart">
+                                <span><img src="images/envato.png"></span>
+                                <p>Envato</p>
+                                <div class="icons">
+                                    <i class="fa fa-bookmark-o"></i>
+                                    <i class="fa fa-heart-o"></i>
+                                </div>
+                            </div>
+                            <div class="locat_time" style="padding-bottom: 20px; border-bottom: 1px solid gainsboro;">
+                                <span>
+                                    <i class="fa fa-map-marker"></i>
+                                    Melbourne, Australia
+                                </span>
+                                <p><i class="fa fa-clock-o"></i> 2 days ago</p>
+                            </div>
+                            <div class="btn_sec">
+                                <span><i class="fa fa-money"></i> $20k</span>
+                                <a href="#">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job_listing">
+                    <a href="#">Browse Job Listings</a>
+                </div>
+            </div>
+        </section>
+        <!-- Happy Customer container section -->
+        <section>
+            <div class="customer_container">
+                <div class="head_portion">
+                    <h1>Happy customers</h1>
+                </div>
+                <div class="happy_customer">
+                    <!-- Card 1 -->
+                    <div class="customer_card">
+                        <div class="card_info">
+                            <div class="hd_info">
+                                <img src="images/portrait-beautiful-young-woman.jpg" alt="">
+                                <div>
+                                    <h4>Haley</h4>
+                                    <p>Sales & Marketing</p>
+                                </div>
+                            </div>
+                            <div class="reviews">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, illo laborum
+                                accusamus labore autem exercitationem corrupti officia animi
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="customer_card">
+                        <div class="card_info">
+                            <div class="hd_info">
+                                <img src="images/blond-man-happy-expression.jpg" alt="">
+                                <div>
+                                    <h4>Jackson</h4>
+                                    <p>Dev Ops</p>
+                                </div>
+                            </div>
+                            <div class="reviews">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, illo laborum
+                                accusamus labore autem exercitationem corrupti officia animi
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="customer_card">
+                        <div class="card_info">
+                            <div class="hd_info">
+                                <img src="images/university-study-abroad-lifestyle-concept.jpg" alt="">
+                                <div>
+                                    <h4>Kevin</h4>
+                                    <p>Internship</p>
+                                </div>
+                            </div>
+                            <div class="reviews">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, illo laborum
+                                accusamus labore autem exercitationem corrupti officia animi
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="customer_card">
+                        <div class="card_info">
+                            <div class="hd_info">
+                                <img src="images/portrait-charming-middle-aged-attractive-woman-with-blonde-hair.jpg"
+                                    alt="">
+                                <div>
+                                    <h4>Susan L</h4>
+                                    <p>Product Manager</p>
+                                </div>
+                            </div>
+                            <div class="reviews">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, illo laborum
+                                accusamus labore autem exercitationem corrupti officia animi
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="customer_card">
+                        <div class="card_info">
+                            <div class="hd_info">
+                                <img src="images/medium-shot-smiley-senior-man.jpg" alt="">
+                                <div>
+                                    <h4>Jack</h4>
+                                    <p>Technical Lead</p>
+                                </div>
+                            </div>
+                            <div class="reviews">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, illo laborum
+                                accusamus labore autem exercitationem corrupti officia animi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Opening section -->
+        <section class="open_section">
+            <div class="opening_container">
+                <div class="opening_jobs">
+                    <div class="content">
+                        <h2>Over 10k opening jobs</h2>
+                        <p>
+                            If you are looking for free HTML templates, you may visit Tooplate website. If you need a
+                            collection of free templates, you can visit Too CSS website.
+                        </p>
+                    </div>
+                    <div class="job_btns">
+                        <a href="#">Crate an Account</a>
+                        <a href="#">Post a Job</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer_section" id="contact">
+                <ul>
+                    <li class="logo">
+                        <img src="images/logo.png" alt="logo of website">
+                        <div class="logo_content">
+                            <h1>Gotto</h1>
+                            <p>Online Job Portal</p>
+                        </div>
+                    </li>
+                    <li><i class="fa fa-chrome"></i> www.jobbportal.com</li>
+                    <li><i class="fa fa-phone"></i> 305-240-9671</li>
+                    <li><i class="fa fa-envelope-o"></i> info@jobportal.co</li>
+                </ul>
+                <ul>
+                    <h2>Company</h2>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Jobs</li>
+                    <li>Contact</li>
+                </ul>
+                <ul>
+                    <h2>Resources</h2>
+                    <li>Guide</li>
+                    <li>How it works</li>
+                    <li>Salary Tool</li>
+                </ul>
+                <div class="newsletter_section">
+                    <h2>Newsletter</h2>
+                    <form action="post" class="news_form">
+                        <h4>Get notified job news</h4>
+                        <span><i class="fa fa-user-o"></i></span>
+                        <input type="email" placeholder="yourname@gmail.com" required>
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_end">
+                <div class="copyright">
+                    <p>Copyright © Gotto Job 2048</p>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms</li>
+                    </ul>
+                </div>
+                <div class="social_icon">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-linkedin-square"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube-play"></i>
+                </div>
+                <div class="owners">
+                    <p>Design:Tooplate</p>
+                </div>
+
+            </div>
+            <div class="scroll_btn">
+                <a href="#" class="scroll_top"><i class="fa fa-arrow-up"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const scrol = document.querySelector('.scroll_top');
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 50) {
+                scrol.classList.add("active");
+            } else {
+                scrol.classList.remove("active");
+            }
+        })
+
+
+        let menu = document.getElementById('list');
+        function openMenu() {
+            menu.style.top = '0px';
+        }
+        function closeMenu() {
+            menu.style.top = '-340px';
+        }
+    </script>
+</body>
+
+</html>
