@@ -255,7 +255,7 @@ a{
 }
 .about_intro a{
     color: #fff;
-    margin-right:20px ;
+    margin-right: 10px ;
 }
 .getbtn{
     border: 2px solid #fff;
@@ -597,7 +597,7 @@ a{
 }
 .job_btns a{
     color: #fff;
-    margin: 20px;
+    margin: 0px;
 }
 .job_btns a:first-child{
     margin: 20px;
@@ -780,7 +780,7 @@ a{
     }
     .keyword_sec a {
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .navbar ul {
         padding: 30px;
@@ -803,7 +803,7 @@ a{
         padding: 30px;
     }
     .slide_btns ul li a {
-        margin: 3px;
+        margin: 0px;
     }
     .slide_btns {
         margin: 60px 16px;
@@ -845,7 +845,7 @@ a{
         padding: 70px 20px;
     }
     .job_listing a {
-        padding: 25px 20px;
+        padding: 25px 15px;
     }
     .btn_sec a {
         margin-left: 130px;
