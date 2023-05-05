@@ -846,6 +846,7 @@ a{
     }
     .job_listing a {
         padding: 15px 10px;
+        font-size: 10px;
     }
     .btn_sec a {
         margin-left: 130px;
